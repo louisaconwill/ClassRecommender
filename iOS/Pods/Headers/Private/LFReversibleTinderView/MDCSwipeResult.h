@@ -1,0 +1,1 @@
+../../../LFReversibleTinderView/MDCSwipeToChoose/Public/State/MDCSwipeResult.h

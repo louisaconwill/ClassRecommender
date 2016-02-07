@@ -1,0 +1,380 @@
+{
+  "href": "http://api.students.brown.edu/academic/courses?client_id=5dcc7d06-31ad-421a-b2f4-e1845977d5f6",
+  "items": [
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abea"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Terry-Morgan",
+      "crn": "25173",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "Third level of RPM Playwriting; for students that have successfully completed RPM Playwriting and Intermediate RPM Playwriting (workshop).  Instructor permission.\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1050A-S01",
+      "instructors": [
+        {
+          "email": "elmo_terry-morgan@brown.edu",
+          "isPrimary": true,
+          "name": "Elmo Terry-Morgan"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "Churchill House 106",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1050A",
+      "seats_available": 13,
+      "seats_total": 14,
+      "semester": "Spring 2016",
+      "title": "Advanced RPM Playwriting"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abeb"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Perry",
+      "crn": "25781",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "How can research advance the global social justice struggle?  This course will emphasize the idea that education has never been a politically neutral undertaking.  Students\u00e2\u20ac\u2122 research can have social impact in the university and beyond.  We will engage a variety of disciplinary fields to theorize key concepts such as intersectionality of oppression and resistance, power, hegemony, social justice, and activist research.  Students will be required to carry out an original research project that tackles a pressing societal problem we face today.\n SOPH\n\n",
+      "exam_date": "05/11/2016",
+      "exam_group": "13",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI0660-S01",
+      "instructors": [
+        {
+          "email": "keisha-khan_perry@brown.edu",
+          "isPrimary": true,
+          "name": "Keisha-Khan Y. Perry"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "M",
+          "end_time": 63000,
+          "location": "Churchill House 206",
+          "start_time": 54000
+        }
+      ],
+      "number": "AFRI0660",
+      "seats_available": 9,
+      "seats_total": 20,
+      "semester": "Spring 2016",
+      "title": "Activist Scholarship:  Research and Writing for Social Change"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abec"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Terry-Morgan",
+      "crn": "25175",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "Research-to-Performance Method (RPM) Playwriting guides students through the process of developing new plays that are informed by scholarly research (workshop). DPLL\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1050E-S01",
+      "instructors": [
+        {
+          "email": "elmo_terry-morgan@brown.edu",
+          "isPrimary": true,
+          "name": "Elmo Terry-Morgan"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "Churchill House 106",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1050E",
+      "seats_available": 7,
+      "seats_total": 13,
+      "semester": "Spring 2016",
+      "title": "RPM Playwriting"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abed"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Terry-Morgan",
+      "crn": "25172",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "An interdisciplinary approach to the study of plays that address the identities and issues of black gay men and lesbians and offers various perspectives from within and without the black gay and lesbian artistic communities. Focuses on analysis of unpublished titles. Also includes published works by Baraka, Bullins, Corbitt, Gibson, Holmes, West, and Pomo Afro Homos. Some evening screenings of videotapes. Enrollment limited to 40. WRIT DPLL\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "09",
+      "exam_time": "02:00 PM",
+      "full_number": "AFRI0990-S01",
+      "instructors": [
+        {
+          "email": "elmo_terry-morgan@brown.edu",
+          "isPrimary": true,
+          "name": "Elmo Terry-Morgan"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "T",
+          "end_time": 42600,
+          "location": "Churchill House 106",
+          "start_time": 37800
+        },
+        {
+          "day_of_week": "R",
+          "end_time": 42600,
+          "location": "Churchill House 106",
+          "start_time": 37800
+        }
+      ],
+      "number": "AFRI0990",
+      "seats_available": 25,
+      "seats_total": 40,
+      "semester": "Spring 2016",
+      "title": "Black Lavender: Black Gay/Lesbian Plays/Dramatic Constructions in the American Theatre"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abee"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Dzidzienyo",
+      "crn": "25189",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "Do West African writers have a role to play in the changing political landscape of their countries? An examination of the ways and means through which a select group of West African writers have dealt with issues that relate to the role of the state in the management of individual and group relations, the politics of gender, civil and military relations, and the construction of new forms of civil society. Enrollment limited to 20. DPLL\n",
+      "exam_date": "05/13/2016",
+      "exam_group": "14",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1060E-S01",
+      "instructors": [
+        {
+          "email": "anani_dzidzienyo@brown.edu",
+          "isPrimary": true,
+          "name": "Anani Dzidzienyo"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "W",
+          "end_time": 63000,
+          "location": "Churchill House B9",
+          "start_time": 54000
+        }
+      ],
+      "number": "AFRI1060E",
+      "seats_available": 9,
+      "seats_total": 20,
+      "semester": "Spring 2016",
+      "title": "West African Writers and Political Kingdom"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abef"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Terry-Morgan",
+      "crn": "25174",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "Second level of RPM Playwriting; for students that want to continue developing their RPM plays or want to begin a new project (workshop).\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1050D-S01",
+      "instructors": [
+        {
+          "email": "elmo_terry-morgan@brown.edu",
+          "isPrimary": true,
+          "name": "Elmo Terry-Morgan"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "Churchill House 106",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1050D",
+      "seats_available": 7,
+      "seats_total": 13,
+      "semester": "Spring 2016",
+      "title": "Intermediate RPM Playwriting"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abf0"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Meeks",
+      "crn": "26169",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "This course explores the philosophy, history, politics , and theology of Rastafari, one of the Caribbean's most influential and misunderstood liberation movements. DPLL\n",
+      "exam_date": "05/20/2016",
+      "exam_group": "11",
+      "exam_time": "02:00 PM",
+      "full_number": "AFRI0760A-S01",
+      "instructors": [
+        {
+          "email": "",
+          "isPrimary": true,
+          "name": "Brian W. Meeks"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "T",
+          "end_time": 57000,
+          "location": "MacMillan Hall 115",
+          "start_time": 52200
+        },
+        {
+          "day_of_week": "R",
+          "end_time": 57000,
+          "location": "MacMillan Hall 115",
+          "start_time": 52200
+        }
+      ],
+      "number": "AFRI0760A",
+      "seats_available": 946,
+      "seats_total": 999,
+      "semester": "Spring 2016",
+      "title": "Rastafarianism"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abf1"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Dzidzienyo",
+      "crn": "25188",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "Examines three historical components of the South Atlantic in terms of history, culture, and contemporary political and economic consequences. European colonialism in Africa and Brazil constitutes the baseline for this exploration, but the long and tardy nature of Portuguese colonialism in Africa in comparison with other European colonial powers, especially in its post-World War II manifestations, is our starting point. Enrollment limited to 40. DPLL\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1020C-S01",
+      "instructors": [
+        {
+          "email": "anani_dzidzienyo@brown.edu",
+          "isPrimary": true,
+          "name": "Anani Dzidzienyo"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "Churchill House B9",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1020C",
+      "seats_available": 33,
+      "seats_total": 40,
+      "semester": "Spring 2016",
+      "title": "The Afro-Luso-Brazilian Triangle"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abf2"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Bogues",
+      "crn": "26171",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "This course will explore the issues of Africana Studies as a discipline by engaging in a series of critical readings of the central texts, which laid the protocols of the discipline. The course will also raise issues of knowledge production and methodologies. This course is a senior capstone seminar. Open to all senior Africana Studies concentrators; others by instructor permission only. Enrollment limited to 25. DPLL LILE\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1360-S01",
+      "instructors": [
+        {
+          "email": "barrymore_bogues@brown.edu",
+          "isPrimary": true,
+          "name": "Barrymore A. Bogues"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "Barus & Holley 163",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1360",
+      "seats_available": 12,
+      "seats_total": 25,
+      "semester": "Spring 2016",
+      "title": "Africana Studies: Knowledge, Texts and Methodology"
+    },
+    {
+      "_id": {
+        "$oid": "56b58359c596c22e9c37abf3"
+      },
+      "critical_review_website": "http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=Augusto",
+      "crn": "26175",
+      "dept": {
+        "code": "AFRI",
+        "desc": "Africana Studies"
+      },
+      "description": "This seminar will explore the complex dynamics of  black transnationalism during the 20th century, focusing on the circulation of ideas and practices by Africans and African-descended communities; how they were contested and reconfigured as they flowed back and forth. Particular attention will be paid to some less-examined archives, interpretations and perspectives; ideas of black women activist-scholars; aesthetic practices, sonic regimes and religion; insights and experiences of those who lived diaspora. Seminar readings and discussions will introduce and \"trouble\" some key theoretical issues in the notion of black transnationalism, e.g. diaspora, Pan-Africanism, globality, translocalism, identity, articulation, and solidarity. Enrollment limited to 20.\n",
+      "exam_date": "05/18/2016",
+      "exam_group": "17",
+      "exam_time": "09:00 AM",
+      "full_number": "AFRI1060V-S01",
+      "instructors": [
+        {
+          "email": "geri_augusto@brown.edu",
+          "isPrimary": true,
+          "name": "Geri M. Augusto"
+        }
+      ],
+      "meeting": [
+        {
+          "day_of_week": "R",
+          "end_time": 66600,
+          "location": "J. Walter Wilson 501",
+          "start_time": 57600
+        }
+      ],
+      "number": "AFRI1060V",
+      "seats_available": 2,
+      "seats_total": 20,
+      "semester": "Spring 2016",
+      "title": "Black Transnationalism"
+    }
+  ],
+  "limit": 10,
+  "next": "http://api.students.brown.edu/academic/courses?limit=10&offset=56b58359c596c22e9c37abf3",
+  "offset": "null"
+}

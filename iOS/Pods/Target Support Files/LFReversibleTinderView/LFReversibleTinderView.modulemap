@@ -1,0 +1,6 @@
+framework module LFReversibleTinderView {
+  umbrella header "LFReversibleTinderView-umbrella.h"
+
+  export *
+  module * { export * }
+}
