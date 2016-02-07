@@ -14,6 +14,16 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Constants.userRef.observeSingleEventOfType(.Value, withBlock: { snapshot in
+            if let firstTime = snapshot.value.objectForKey("firstTime") as? String {
+                if firstTime == "1" {
+                    self.presentViewController((self.storyboard?.instantiateViewControllerWithIdentifier("gettingstarted"))!, animated: true, completion: nil)
+                }
+                
+            }
+            
+        })
+        
         let options = MDCSwipeToChooseViewOptions()
                  options.delegate = self
                  options.likedText = "Keep"
@@ -24,14 +34,6 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
         
                  self.view.addSubview(mdcview) //adds swiping object to view
         
-        Constants.userRef.observeSingleEventOfType(.Value, withBlock: { snapshot in
-            if let firstTime = snapshot.value.objectForKey("firstTime") as? String {
-                if firstTime == "1" {
-                    self.presentViewController((self.storyboard?.instantiateViewControllerWithIdentifier("gettingstarted"))!, animated: true, completion: nil)
-                }
-                
-            }
-            
-        })
+
     }
 }
