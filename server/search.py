@@ -26,5 +26,5 @@ def search(word, depts = []): #dept is optional
 
 # pprint(search("organic"))
 # pprint(search("organic", ["CSCI", "ECON"]))
-pprint(search("animation"))
+#pprint(search("animation"))
 # pprint(search("introduction", ["CSCI", "ECON"]))
