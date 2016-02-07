@@ -50,7 +50,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
                     Constants.userRef.observeSingleEventOfType(.Value, withBlock: { snapshot in
                         if let firstTime = snapshot.value.objectForKey("firstTime") as? String {
                             //make this be equal to 1 to go to the getting started page if necessary
-                            if firstTime == "1" {
+                            if firstTime != "1" {
                                 self.presentViewController((self.storyboard?.instantiateViewControllerWithIdentifier("gettingstarted"))!, animated: true, completion: nil)
                             } else {
                                 self.presentViewController((self.storyboard?.instantiateViewControllerWithIdentifier("home"))!, animated: true, completion: nil)

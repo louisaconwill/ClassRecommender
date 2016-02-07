@@ -13,6 +13,9 @@
 		B929D9DB1C66BD8300D1D9F1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B929D9DA1C66BD8300D1D9F1 /* AddressBook.framework */; };
 		B929D9DD1C66BD8A00D1D9F1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B929D9DC1C66BD8A00D1D9F1 /* StoreKit.framework */; };
 		B929D9DF1C66BE8C00D1D9F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B929D9DE1C66BE8C00D1D9F1 /* GoogleService-Info.plist */; };
+		B94DEC4B1C679B15003EBECA /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94DEC4A1C679B15003EBECA /* Course.swift */; };
+		B94DEC4E1C679D5C003EBECA /* CourseSwipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94DEC4D1C679D5C003EBECA /* CourseSwipeView.xib */; };
+		B94DEC501C679D89003EBECA /* CourseSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94DEC4F1C679D89003EBECA /* CourseSwipeView.swift */; };
 		B96517351C6672A10071F79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96517341C6672A10071F79A /* AppDelegate.swift */; };
 		B965173A1C6672A10071F79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96517381C6672A10071F79A /* Main.storyboard */; };
 		B965173C1C6672A10071F79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B965173B1C6672A10071F79A /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 		B929D9DC1C66BD8A00D1D9F1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B929D9DE1C66BE8C00D1D9F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B929D9E01C66BF6B00D1D9F1 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B94DEC4A1C679B15003EBECA /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		B94DEC4D1C679D5C003EBECA /* CourseSwipeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseSwipeView.xib; sourceTree = "<group>"; };
+		B94DEC4F1C679D89003EBECA /* CourseSwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSwipeView.swift; sourceTree = "<group>"; };
 		B96517311C6672A10071F79A /* ClassRecommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassRecommender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96517341C6672A10071F79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96517391C6672A10071F79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +96,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B94DEC4C1C679D43003EBECA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B94DEC4D1C679D5C003EBECA /* CourseSwipeView.xib */,
+				B94DEC4F1C679D89003EBECA /* CourseSwipeView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B96517281C6672A10071F79A = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +126,14 @@
 		B96517331C6672A10071F79A /* ClassRecommender */ = {
 			isa = PBXGroup;
 			children = (
+				B94DEC4C1C679D43003EBECA /* Views */,
 				B96517341C6672A10071F79A /* AppDelegate.swift */,
 				B9DA59061C6705C300BBD403 /* Storyboards */,
 				B9DA59041C6705B600BBD403 /* View Controllers */,
 				B9DA59051C6705BC00BBD403 /* Constants */,
 				B9DA59071C6705CA00BBD403 /* Supporting Files */,
 				B965173B1C6672A10071F79A /* Assets.xcassets */,
+				B94DEC4A1C679B15003EBECA /* Course.swift */,
 			);
 			path = ClassRecommender;
 			sourceTree = "<group>";
@@ -241,6 +258,7 @@
 				B929D9D91C66BD5000D1D9F1 /* GoogleSignIn.bundle in Resources */,
 				B965173F1C6672A10071F79A /* LaunchScreen.storyboard in Resources */,
 				B929D9DF1C66BE8C00D1D9F1 /* GoogleService-Info.plist in Resources */,
+				B94DEC4E1C679D5C003EBECA /* CourseSwipeView.xib in Resources */,
 				B965173C1C6672A10071F79A /* Assets.xcassets in Resources */,
 				B965173A1C6672A10071F79A /* Main.storyboard in Resources */,
 			);
@@ -301,11 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94DEC4B1C679B15003EBECA /* Course.swift in Sources */,
 				B9DA59011C66D53000BBD403 /* HomeViewController.swift in Sources */,
 				B9DA58FD1C66D50E00BBD403 /* LoginViewController.swift in Sources */,
 				D7C2A5671C6737000054B2EA /* GettingStartedTableViewController.swift in Sources */,
 				B96517351C6672A10071F79A /* AppDelegate.swift in Sources */,
 				B9DA59031C66D64B00BBD403 /* Constants.swift in Sources */,
+				B94DEC501C679D89003EBECA /* CourseSwipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

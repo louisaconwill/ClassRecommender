@@ -11,4 +11,6 @@ struct Constants {
         }
     }
     
+    static let coursesRef = rootRef.childByAppendingPath("courses")
+    
 }
