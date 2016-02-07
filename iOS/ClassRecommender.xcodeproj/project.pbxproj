@@ -24,10 +24,10 @@
 		B9D9FCC71C66A68B00A54E40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D9FCC61C66A68B00A54E40 /* SystemConfiguration.framework */; };
 		B9D9FCC91C66A69F00A54E40 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D9FCC81C66A69F00A54E40 /* Firebase.framework */; };
 		B9DA58FD1C66D50E00BBD403 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA58FC1C66D50E00BBD403 /* LoginViewController.swift */; };
-		B9DA58FF1C66D52100BBD403 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA58FE1C66D52100BBD403 /* GettingStartedViewController.swift */; };
 		B9DA59011C66D53000BBD403 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA59001C66D53000BBD403 /* HomeViewController.swift */; };
 		B9DA59031C66D64B00BBD403 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA59021C66D64B00BBD403 /* Constants.swift */; };
 		B9E763921C66C59B003881DA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E763911C66C59B003881DA /* libz.tbd */; };
+		D7C2A5671C6737000054B2EA /* GettingStartedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2A5661C6737000054B2EA /* GettingStartedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,11 +52,11 @@
 		B9D9FCC61C66A68B00A54E40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B9D9FCC81C66A69F00A54E40 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ClassRecommender/Firebase.framework; sourceTree = "<group>"; };
 		B9DA58FC1C66D50E00BBD403 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B9DA58FE1C66D52100BBD403 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
 		B9DA59001C66D53000BBD403 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B9DA59021C66D64B00BBD403 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B9E763911C66C59B003881DA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D1430A63C2DFC465096E3E04 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C2A5661C6737000054B2EA /* GettingStartedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				B9DA58FC1C66D50E00BBD403 /* LoginViewController.swift */,
-				B9DA58FE1C66D52100BBD403 /* GettingStartedViewController.swift */,
 				B9DA59001C66D53000BBD403 /* HomeViewController.swift */,
+				D7C2A5661C6737000054B2EA /* GettingStartedTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			files = (
 				B9DA59011C66D53000BBD403 /* HomeViewController.swift in Sources */,
 				B9DA58FD1C66D50E00BBD403 /* LoginViewController.swift in Sources */,
-				B9DA58FF1C66D52100BBD403 /* GettingStartedViewController.swift in Sources */,
+				D7C2A5671C6737000054B2EA /* GettingStartedTableViewController.swift in Sources */,
 				B96517351C6672A10071F79A /* AppDelegate.swift in Sources */,
 				B9DA59031C66D64B00BBD403 /* Constants.swift in Sources */,
 			);
