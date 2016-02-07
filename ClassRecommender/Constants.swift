@@ -1,9 +1,14 @@
-//
-//  Constants.swift
-//  ClassRecommender
-//
-//  Created by Louisa Conwill on 2/6/16.
-//  Copyright © 2016 Louisa Conwill. All rights reserved.
-//
-
 import Foundation
+import Firebase
+
+struct Constants {
+    static let rootRef = Firebase(url: "https://glaring-torch-8449.firebaseio.com/")
+    static let usersRef = rootRef.childByAppendingPath("users")
+    static var userRef: Firebase! {
+        get {
+            let uid = Constants.rootRef.authData.uid
+            return usersRef.childByAppendingPath(uid)
+        }
+    }
+    
+}
