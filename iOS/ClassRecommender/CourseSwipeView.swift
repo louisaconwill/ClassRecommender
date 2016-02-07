@@ -9,22 +9,16 @@
 import UIKit
 import LFReversibleTinderView
 
-class CourseSwipeView: UIView {
+class CourseSwipeView: MDCSwipeToChooseView {
 
-    
     @IBOutlet weak var name: UILabel!
 
     @IBOutlet weak var title: UILabel!
     
     @IBOutlet weak var coursedescription: UITextView!
     
-    init() {
-        super.init(frame: CGRectZero)
-        NSBundle.mainBundle().loadNibNamed("CourseSwipeView", owner: self, options: nil)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("NSCoding not supported")
+    class func instantiateFromNib() -> CourseSwipeView {
+        return UINib(nibName: "CourseSwipeView", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! CourseSwipeView
     }
     
     

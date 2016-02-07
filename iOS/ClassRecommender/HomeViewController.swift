@@ -28,10 +28,7 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
         })*/
         
         super.viewDidLoad()
-        
-       getNextView { (view) -> (Void) in
-            self.view.addSubview(view)
-        }
+        displayNextView()
         
 
     }
@@ -52,9 +49,7 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     // This is called then a user swipes the view fully left or right.
     func view(view: UIView, wasChosenWithDirection: MDCSwipeDirection) -> Void{
-        getNextView { (view) -> (Void) in
-            self.view.addSubview(view)
-        }
+        displayNextView()
         
         if wasChosenWithDirection == MDCSwipeDirection.Left {
             print("Photo deleted!")
@@ -64,16 +59,15 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
     }
     
     func makeView(course: Course) -> CourseSwipeView {
-        let options = MDCSwipeToChooseViewOptions()
-        options.delegate = self
-        options.likedText = "Keep"
-        options.likedColor = UIColor.blackColor()
-        options.nopeText = "Delete"
         
-        let courseswipeview = CourseSwipeView()
+        let options = MDCSwipeOptions()
+        options.delegate = self
+        
+        let courseswipeview = CourseSwipeView.instantiateFromNib()
         courseswipeview.name.text = course.name
         courseswipeview.title.text = course.title
         courseswipeview.coursedescription.text = course.description
+        courseswipeview.mdc_swipeToChooseSetup(options)
         
         return courseswipeview
         
@@ -99,9 +93,21 @@ class HomeViewController: UIViewController, MDCSwipeToChooseDelegate {
                 
         })
         
-        currentCourse++
-  
-}
+        currentCourse += 1
+    }
+    
+    func displayNextView() {
+        getNextView { (view) -> (Void) in
+            self.view.addSubview(view)
+            view.translatesAutoresizingMaskIntoConstraints = false
+            self.view.addConstraint(NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.Top, relatedBy: .Equal, toItem: self.view, attribute: .Top, multiplier: 1.0, constant: 0.0))
+            self.view.addConstraint(NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.Bottom, relatedBy: .Equal, toItem: self.view, attribute: .Bottom, multiplier: 1.0, constant: 0.0))
+            self.view.addConstraint(NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.Left, relatedBy: .Equal, toItem: self.view, attribute: .Left, multiplier: 1.0, constant: 0.0))
+            self.view.addConstraint(NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.Right, relatedBy: .Equal, toItem: self.view, attribute: .Right, multiplier: 1.0, constant: 0.0))
+            
+        }
+        
+    }
     
     
 
